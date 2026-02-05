@@ -5,6 +5,12 @@
     <File Path="Directory.Packages.props" />
   </Folder>
   <Folder Name="/src/">
+    <Project Path="../CleanArchitectureWithBlazorServer/src/TodoApp/TodoApp.Shared/TodoApp.Shared.csproj" Id="f7a86818-121a-4611-94dc-2a98525c487c" />
+    <Project Path="../CleanArchitectureWithBlazorServer/src/TodoApp/TodoApp.Web/TodoApp.Web.csproj" Id="5bdf51eb-65e0-4901-89b5-6344d7b9b213" />
+    <Project Path="../CleanArchitectureWithBlazorServer/src/TodoApp/TodoApp/TodoApp.csproj" Id="a600245b-9919-4e15-90fc-254cd1d08165">
+      <Deploy Solution="Debug|*" />
+    </Project>
+    <Project Path="../Presentation/Presentation.csproj" Id="9270af7c-34e0-4099-8032-aa5d04dcca4c" />
     <Project Path="src/Application/Application.csproj" />
     <Project Path="src/Domain/Domain.csproj" />
     <Project Path="src/Infrastructure/Infrastructure.csproj" />
